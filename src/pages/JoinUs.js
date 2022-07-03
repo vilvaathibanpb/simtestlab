@@ -33,7 +33,7 @@ const JoinUs = () => {
   return (
     <Container>
       <ListItem>
-        <img src={careerImage} />
+        <img src={careerImage} alt="careers" />
         <p>
           <h1>{careersText.title}</h1>
           {careersText.para}

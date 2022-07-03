@@ -8,8 +8,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faWhatsapp,
-  faInstagram,
-  faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 import { basic_details } from "../data/basic_details";
 import contactImage from "../images/contact/contact.png";
@@ -45,16 +43,10 @@ const Item = styled.div`
 
 const Title = styled.h1``;
 
-const Icon = styled.div`
-    .text-white;
-    .text-5xl;
-    .mb-4;
-`;
-
 const Contact = () => {
   return (
     <Container>
-        <img src={contactImage} />
+        <img src={contactImage} alt="contact" />
       <div>
         <Title>Our Headquarters:</Title>
         <Item>

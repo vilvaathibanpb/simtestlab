@@ -34,7 +34,7 @@ const HomeContent = () => {
   return (
     <Container>
       <ListItem>
-        <img src={home1Image} />
+        <img src={home1Image} alt="home1" />
         <p>
           <h1>{homeText.home1Title}</h1>
           {homeText.home1}
@@ -45,7 +45,7 @@ const HomeContent = () => {
           <h1>{homeText.home2Title}</h1>
           {homeText.home2}
         </p>
-        <img src={home2Image} />
+        <img src={home2Image} alt="home2" />
       </ListItem>
     </Container>
   );

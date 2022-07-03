@@ -33,7 +33,7 @@ const About = () => {
   return (
     <Container>
       <ListItem>
-        <img src={aboutImage} />
+        <img src={aboutImage} alt="about" />
         <p>
           <h1>{aboutText.title}</h1>
           {aboutText.para}

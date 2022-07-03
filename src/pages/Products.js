@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-wind";
-import { aboutText, productText } from "../data/basic_details";
+import { productText } from "../data/basic_details";
 import productImage from "../images/product/product.png";
 
 const ListItem = styled.div`
@@ -32,7 +32,7 @@ const Product = () => {
   return (
     <Container>
       <ListItem>
-        <img src={productImage} />
+        <img src={productImage} alt="products" />
         {Object.keys(productText).map((category, index) => (
           <p key={index}>
             <h1>{category}</h1>
