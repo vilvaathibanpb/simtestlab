@@ -1,13 +1,13 @@
 export const basic_details = {
   name: "simtestlab",
   url: "https://www.simtestlab.se",
-  sales_email: "sales@simtestlab.se",
+  sales_email: "ramesh@simtestlab.se",
   jobs_email: "jobs@simtestlab.se",
-  phone: "+46 (0) 56 677 889",
-  address: "Krokslätts Fabriker 30B",
+  phone: "+46 (0) 73 902 5518",
+  address: "Sprintergången 7 ",
   instagram_url: "https://instagram.com",
   facebook_url: "https://facebook.com",
-  vatNumber: '98767655444'
+  vatNumber: 'XXXXX'
 };
 
 export const menu_items = [
@@ -19,9 +19,9 @@ export const menu_items = [
 ];
 
 export const slidesText = {
-  slides1: "WE DELIVER MODULAR BATTERY CELL SIMULATORS",
-  slides2: "WE DELIVER MODULAR BATTERY CELL SIMULATORS",
-  slides3: "WE DELIVER MODULAR BATTERY CELL SIMULATORS",
+  slides1: " SIMFLOW - Automated testcase generator",
+  slides2: " Flexible and Modular HIL System",
+  slides3: " Domain and Component HIL",
 };
 
 export const homeText = {
