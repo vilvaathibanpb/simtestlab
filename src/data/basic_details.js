@@ -3,11 +3,12 @@ export const basic_details = {
   url: "https://www.simtestlab.se",
   sales_email: "ramesh@simtestlab.se",
   jobs_email: "jobs@simtestlab.se",
-  phone: "+46 (0) 73 902 5518",
+  phone: "+46 (0) 73 9768 263",
   address: "Sprintergången 7 ",
   instagram_url: "https://instagram.com",
   facebook_url: "https://facebook.com",
-  vatNumber: 'XXXXX'
+  Organization_number:559386-6055,
+  vatNumber: 'SE559386605501'
 };
 
 export const menu_items = [
@@ -34,9 +35,9 @@ export const homeText = {
 
 export const aboutText = {
   title: "The New Way toadvance.",
-  para: `Simtestlab was founded in Gothenburg, Sweden in 2014 by a group of people with different expertise in software testing, hardware development and entrepreneurial drive. We all experienced the increased need for more flexible and modular test solutions combined with the desire to have information accessible 24/7 through the cloud.
+  para: `Simtestlab was founded in Gothenburg, Sweden in 2020 by a group of people with different expertise in software testing, hardware development and entrepreneurial drive. We all experienced the increased need for more flexible and modular test solutions combined with the desire to have information accessible 24/7 through the cloud.
   
-  Early on, we decided to become a partner to National Instruments and became a Silver NI Alliance Partner in 2018. Our aim is to become the most open and qualified test system provider on the market. We focus on delivering high quality, durable solutions over rapid growth and profits. We have a focus to ensure that our colleagues will have a secure, inspired and stable workplace by signing a collective bargaining agreement.`
+  . Our aim is to become the most open and qualified test system provider on the market. We focus on delivering high quality, durable solutions over rapid growth and profits. We have a focus to ensure that our colleagues will have a secure, inspired and stable workplace by signing a collective bargaining agreement.`
 }
 
 export const careersText = {
@@ -45,7 +46,7 @@ export const careersText = {
 }
 
 export const productText = {
-  "SOFTWARE": ['xMove Configurator'],
+  "SOFTWARE": ['SimFlexi Configurator'],
   "Data Acquisition &amp; Signal Conditioning": ['Multi-function I/O with fault insertion (10A)', 'Multi-function I/O with fault insertion (1A)', 'CAN/LIN/Ethernet Bus Switching', 'Battery Cell Simulation (BMS)', 'Resistor Emulation', 'Power Switching I/O', 'Gigabit Ethernet', 'Wheel Speed Sensor Simulator' ],
   "SYSTEMS":['Automotive Body HIL', 'Battery Management System HIL', 'Cloud HIL on Demand', 'Functional Desktop Tester &amp; Mini-HIL', 'Vehicle Dynamics HIL', 'Vehicle Integration HIL'],
   "Accessories": ['Exchangeable Loadbox', 'Break-Out boxes', 'SLSC Fan Speed Controller' ]
