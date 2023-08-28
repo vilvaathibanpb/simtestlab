@@ -11,7 +11,7 @@ const H1 = styled.h1`
     text-align: center!important;
     opacity: 1!important;
     color: white!important;
-    top: 45%;
+    top: 30%;
 `
 
 const IMG = styled.img`
