@@ -1,7 +1,7 @@
 export const basic_details = {
-  name: "simtestlab",
+  name: "infimotion",
   url: "https://www.simtestlab.se",
-  sales_email: "ramesh@simtestlab.se",
+  sales_email: "ram@simtestlab.se",
   jobs_email: "jobs@simtestlab.se",
   phone: "+46 (0) 73 9768 263",
   address: "Sprintergången 7 ",
